@@ -12,7 +12,7 @@ export default function EcHomePageCategory(props) {
           return (
             <Link
               key={'ecHomePageCategory' + index}
-              to="/"
+              to="/home"
               className="ec_category_card_items"
             >
               <div className="d-flex flex-column align-items-center">

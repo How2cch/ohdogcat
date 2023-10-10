@@ -31,7 +31,7 @@ export default function EC_HomePageSlider(props) {
             key={'ecHomePageSlider' + index}
             className="h-100 d-flex justify-content-center"
           >
-            <Link to="/" className="ecHomePage_slider d-flex flex-column">
+            <Link to="/home" className="ecHomePage_slider d-flex flex-column">
               <div className="ecHomePage_img d-flex justify-content-center">
                 <img src={data.img} alt="" />
               </div>
