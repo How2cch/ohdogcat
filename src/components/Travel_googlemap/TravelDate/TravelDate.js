@@ -119,7 +119,7 @@ const TravelDate = ({
     setMember({
       title: traveltitle[0].title,
       photo:
-        process.env.REACT_APP_BASE_API_URL + '/home' + traveltitle[0].main_photo,
+        process.env.REACT_APP_BASE_API_URL + '/ohdogcat' + traveltitle[0].main_photo,
     });
   }, [traveltitle]);
 

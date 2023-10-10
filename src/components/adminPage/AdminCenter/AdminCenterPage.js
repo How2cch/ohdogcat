@@ -11,7 +11,7 @@ const AdminCenterPage = () => {
   // = 判斷是否有登入狀態，如果沒有就只顯示轉圈圈以及跳出註冊登入卡
 
   if (!user.auth) {
-    handleWarning('由於您未登入<br>平台將為您跳轉至首頁', '/home');
+    handleWarning('由於您未登入<br>平台將為您跳轉至首頁', '/ohdogcat');
     return <Loading />;
   }
 

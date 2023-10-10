@@ -145,7 +145,7 @@ const AdminCenter = () => {
               <p className="d-block mt-3">社群設定</p>
             </Link>
 
-            {/* <Link to="/home" className=""><img alt="" src={HoverBottom}></img><p>tesing</p></Link> */}
+            {/* <Link to="/ohdogcat" className=""><img alt="" src={HoverBottom}></img><p>tesing</p></Link> */}
           </li>
         </ul>
       </div>

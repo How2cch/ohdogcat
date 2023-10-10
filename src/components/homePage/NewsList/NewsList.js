@@ -48,7 +48,7 @@ function mobileItems(index, active, data) {
   let result = data[index].map((data, dataIndex) => {
     return (
       <SwiperSlide key={'newsCard' + data.id} className="h-100">
-        <Link to="/home" className="news_list_card d-flex flex-column">
+        <Link to="/ohdogcat" className="news_list_card d-flex flex-column">
           <div
             className={`news_list_item ${
               index === active ? 'd-block' : 'd-none'

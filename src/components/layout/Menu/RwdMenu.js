@@ -20,7 +20,7 @@ function RwdMenu() {
         // fixed="top"
         className="header_rwd_menuBar text-the-primary bg-gradient"
       >
-        <Navbar.Brand href="/home">
+        <Navbar.Brand href="/ohdogcat">
           <img
             src={headerbodyDog}
             className="header_rwd_menuBar_img"
@@ -69,7 +69,7 @@ function RwdMenu() {
               <NavLink
                 className="header_rwd_menu_NavLink d-flex justify-content-between align-items-center"
                 reloadDocument
-                to="/home"
+                to="/ohdogcat"
                 onClick={() => setOpen(false)}
               >
                 <div className="header_rwd_menu_name ">首頁</div>

@@ -41,7 +41,7 @@ const AdminCenter = () => {
         </div>
         <ul className="admin_sidemenu list-unstyled d-flex flex-column ">
           <li className="">
-            <Link to="/home" className="text-decoration-none admin_select d-flex">
+            <Link to="/ohdogcat" className="text-decoration-none admin_select d-flex">
               <div className="d-flex align-items-center">
                 <FiFile
                   className="icon_size d-block mt-3 ms-1 "
@@ -53,7 +53,7 @@ const AdminCenter = () => {
           </li>
           <li>
             <Link
-              to="/home"
+              to="/ohdogcat"
               className="text-decoration-none admin_select icons d-flex"
             >
               <IoHeartOutline
@@ -77,7 +77,7 @@ const AdminCenter = () => {
           </li>
           <li>
             <Link
-              to="/home"
+              to="/ohdogcat"
               className="admin_select text-decoration-none icons d-flex"
             >
               <RiMessage3Line
@@ -100,7 +100,7 @@ const AdminCenter = () => {
               <p className="d-block mt-3">社群設定</p>
             </Link>
 
-            {/* <Link to="/home" className=""><img alt="" src={HoverBottom}></img><p>tesing</p></Link> */}
+            {/* <Link to="/ohdogcat" className=""><img alt="" src={HoverBottom}></img><p>tesing</p></Link> */}
           </li>
         </ul>
       </div>

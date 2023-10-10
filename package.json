@@ -1,7 +1,7 @@
 {
   "name": "photo-website",
   "version": "0.1.0",
-  "homepage": "https://how2cch.github.io/home",
+  "homepage": "https://how2cch.github.io/ohdogcat",
   "private": true,
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^35.1.0",

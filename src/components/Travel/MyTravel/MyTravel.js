@@ -64,7 +64,7 @@ const MyTravel = () => {
                                 data.main_photo === ''
                                   ? CoverBackground
                                   : process.env.REACT_APP_BASE_API_URL +
-                                    '/home' +
+                                    '/ohdogcat' +
                                     data.main_photo
                               }
                               alt=""

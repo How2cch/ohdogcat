@@ -40,7 +40,7 @@ export const editSocialName = async (
   } catch (error) {
     console.error(error);
     if (error.response.data.login === false) {
-      handleWarning('登入逾時，請重新登入', '/home');
+      handleWarning('登入逾時，請重新登入', '/ohdogcat');
     } else if (error.response.data.message === '無法使用') {
       return setInputError(error.response.data.error.msg);
     }
@@ -73,7 +73,7 @@ export const editProfile = async (
   } catch (error) {
     console.error(error);
     if (error.response.data.login === false) {
-      handleWarning('登入逾時，請重新登入', '/home');
+      handleWarning('登入逾時，請重新登入', '/ohdogcat');
     } else if (error.response.data.message === '無法使用') {
       handleFailed(error.response.data.error.msg);
     } else {
@@ -153,13 +153,13 @@ export const resetPassword = async (data, setUser, navigate) => {
         `請至 ${data.email} 收取信件`
       );
     if (result.status === 204) {
-      navigate('/home');
+      navigate('/ohdogcat');
       setUser((user) => ({ ...user, data: {}, auth: false }));
       return handleSuccess('密碼重設成功', false, '請使用新密碼登入');
     }
   } catch (error) {
     console.error(error);
-    navigate('/home');
+    navigate('/ohdogcat');
     handleFailed(error.response.data.message);
   }
 };
@@ -197,7 +197,7 @@ export const editPassword = async (data, setUser, navigate) => {
       data,
       credentialsConfig
     );
-    navigate('/home');
+    navigate('/ohdogcat');
     setUser((user) => ({ ...user, data: {}, auth: false }));
     handleSuccess(
       '新密碼設置成功',

@@ -30,7 +30,7 @@ function Recommand_product() {
           return (
             <div className="recommand_product_list">
               <div className="d-flex justify-content-between">
-                <Link to="/home">
+                <Link to="/ohdogcat">
                   <div className="rec_product_card">
                     <div className="product_photo">
                       <img

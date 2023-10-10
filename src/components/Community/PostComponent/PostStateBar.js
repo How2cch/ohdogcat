@@ -121,7 +121,7 @@ export default function PostStateBar({ post, postID }) {
               //   : BE_URL + post[0].post_main_photo
               // post[0][0].post_main_photo === ''
               //   ? coverPhoto
-              //   : BE_URL + '/home' + post[0][0].post_main_photo
+              //   : BE_URL + '/ohdogcat' + post[0][0].post_main_photo
             }
           ></img>
         </div>
@@ -139,7 +139,7 @@ export default function PostStateBar({ post, postID }) {
               <p>{time[0]}</p>
             </div>
             <div className="post_auther d-flex px-2">
-              <Link to="/home" className="pe-2">
+              <Link to="/ohdogcat" className="pe-2">
                 {/* {post[0][0].social_name} 學儒調整中*/}
                 {post[0].travel_id === 2
                   ? post[0][0].social_name

@@ -120,7 +120,7 @@ export default function Example() {
         <button
           className="btn btn-primary m-3 text-white fw-bold"
           onClick={() => {
-            handleSuccess('事件成功文字', '/home');
+            handleSuccess('事件成功文字', '/ohdogcat');
           }}
         >
           成功：有跳轉
@@ -137,7 +137,7 @@ export default function Example() {
         <button
           className="btn btn-primary m-3 text-white fw-bold"
           onClick={() => {
-            handleFailed('事件失敗文字', '/home');
+            handleFailed('事件失敗文字', '/ohdogcat');
           }}
         >
           失敗：有跳轉
@@ -154,7 +154,7 @@ export default function Example() {
         <button
           className="btn btn-primary m-3 text-white fw-bold"
           onClick={() => {
-            handleWarning('警告文字', '/home');
+            handleWarning('警告文字', '/ohdogcat');
           }}
         >
           警告：有跳轉
@@ -171,7 +171,7 @@ export default function Example() {
         <button
           className="btn btn-primary m-3 text-white fw-bold"
           onClick={() => {
-            handleInfo('提示文字', '/home');
+            handleInfo('提示文字', '/ohdogcat');
           }}
         >
           提示：有跳轉

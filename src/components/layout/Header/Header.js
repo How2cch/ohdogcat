@@ -88,7 +88,7 @@ const Header = () => {
   return (
     <div className="header_main_body fixed-top">
       <div className="header_main d-flex justify-content-between position-relative">
-        <Link to="/home" className="d-block header_menu">
+        <Link to="/ohdogcat" className="d-block header_menu">
           <img className=" header_dog-logo " src={logobody} alt="dog" />
         </Link>
         <div className="header_tittle d-flex justify-content-center align-items-center w-100 flex-shrink-1">

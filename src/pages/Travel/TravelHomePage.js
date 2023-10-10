@@ -33,7 +33,7 @@ const TravelHomePage = () => {
   }, []);
 
   if (!user.auth) {
-    handleWarning('您沒有登入權限', '/home', '平台將為您跳轉回首頁');
+    handleWarning('您沒有登入權限', '/ohdogcat', '平台將為您跳轉回首頁');
   }
 
   return !user.auth ? (
