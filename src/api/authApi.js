@@ -139,7 +139,7 @@ export const callLineLoginApi = async (code, setUser, redirectPath) => {
       auth: true,
     }));
     const redirect =
-      window.localStorage.getItem('last_page') === '/'
+      window.localStorage.getItem('last_page') === '/home'
         ? false
         : window.localStorage.getItem('last_page');
     handleSuccess('LINE 連動登入成功', redirect);
@@ -149,7 +149,7 @@ export const callLineLoginApi = async (code, setUser, redirectPath) => {
     window.localStorage.removeItem('last_page');
   } catch (error) {
     const redirect =
-      window.localStorage.getItem('last_page') === '/'
+      window.localStorage.getItem('last_page') === '/home'
         ? false
         : window.localStorage.getItem('last_page');
     handleFailed('LINE 連動登入失敗', redirect);

@@ -25,9 +25,9 @@ const Travel_ticketNavbar = ({ travelTicket }) => {
                   <img
                     src={
                       process.env.REACT_APP_BASE_API_URL +
-                      '/' +
+                      '/home' +
                       data.photo_path +
-                      '/' +
+                      '/home' +
                       data.main_photo
                     }
                     className="Travel_ticketNavbar_card_img"

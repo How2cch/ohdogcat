@@ -29,7 +29,7 @@ export const handleLoginCard = (config, setUser) => {
             showConfirmButton: false,
             timer: 1500,
           });
-          if (config.logoutRedirect) return (window.location = '/');
+          if (config.logoutRedirect) return (window.location = '/home');
         } else if (!result.isConfirmed && config.strict) {
           loginCardFire();
         }

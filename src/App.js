@@ -45,7 +45,7 @@ function App() {
         <SocketProvider>
           <Header />
           <Routes>
-            <Route path="/" element={<Homepage />} />
+            <Route path="/home" element={<Homepage />} />
             <Route path="example" element={<ExamplePage />} />
             <Route path="/travel" element={<Travel />} />
             <Route path="/Travel_map" element={<Travelmap />} />

@@ -49,7 +49,7 @@ export default function PostLocateArticle({ post }) {
                   {
                     /* console.log('datajijijfe', data);
                   console.log('jijiejt', data.locate_photo);
-                  console.log(BE_URL + '/' + data.locate_photo); */
+                  console.log(BE_URL + '/home' + data.locate_photo); */
                   }
                   return (
                     <>

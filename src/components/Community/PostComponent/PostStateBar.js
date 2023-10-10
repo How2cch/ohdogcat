@@ -121,7 +121,7 @@ export default function PostStateBar({ post, postID }) {
               //   : BE_URL + post[0].post_main_photo
               // post[0][0].post_main_photo === ''
               //   ? coverPhoto
-              //   : BE_URL + '/' + post[0][0].post_main_photo
+              //   : BE_URL + '/home' + post[0][0].post_main_photo
             }
           ></img>
         </div>
